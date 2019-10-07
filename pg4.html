@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokemon</title>
+	<meta charset="utf-8">
+	<style>
+		body {
+		margin: 0;
+	}
+	*{
+		box-sizing: border-box; /* tornar as boxes responsivas*/
+	}
+		
+		.box { 
+			padding: 1px;
+			float: left;
+			width: 33.33%;
+		}
+		.box2 { 
+			padding: 0px;
+			float: left;
+			width: 33.33%;
+		}
+
+		ul {
+			
+			list-style-type: none;
+			padding: 0px 400px 00px;
+			margin: 0;
+			width: 100%;
+			/*position: fixed;*/
+			background-color: #01005d;
+			overflow: hidden;
+			/*top: 0;*/
+		}
+		li {
+			float: left;
+		}
+		li a, .dropbtn {
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover, .dropdown:hover{
+			background-color: #fbdd06;
+			color: black;
+		}
+		li{
+			text-align: center;
+		}
+
+		p{
+			color: white;
+			font-family: Comic Sans MS;
+			font-size: 18px;
+		}
+
+		ul li a{
+			font-family: arial black;
+		}
+		.box img{
+			opacity: 0.1;
+		}
+		.box img:hover{
+			opacity: 1;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #3368b0;
+			min-width: 160px;
+			box-shadow: 0px, 8px, 16px, 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		.dropdown-content a {
+			color: white;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+		}
+		.dropdown-content a:hover{
+			background-color: #2e5c9b;
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		
+	</style>
+</head>
+<body background="imagens/pokebola.jpg">
+	<ul>
+		<li><a href="index.html">Eevee</a></li>
+		<li><a href="pg2.html">Charmander</a></li>
+		<li><a href="pg3.html">Nidoran</a></li>
+		<li><a href="pg4.html">Squirtle</a></li>
+		<li><a href="pg5.html">Pidgey</a></li>
+		<li class="dropdown">
+			<a href="#" class="dropbtn">Extras</a>
+			<div class="dropdown-content">
+				<a href="extra_pg2.html">Lapras</a>
+				<a href="extra_pg3.html">Stantler</a>
+				<a href="extra_pg4.html">Unown</a>
+			</div>
+		</li>	
+	</ul>
+	<div style="margin-left: 0px;">
+	<br><br><br>
+	<h2 style="text-align: center;"><img src="imagens/pokemon_logo.png" width="50%"></h2>
+
+
+	<div class="box" style="background-color: #fbdd06">
+		<img src="imagens/squirtle.png" alt="Squirtle" style="width: 100%" > 
+	</div>
+	<div class="box" style="background-color: #fbc006">
+		<img src="imagens/wartortle.png" alt="Wartortle" style="width: 100%"> 
+	</div>
+
+	<div class="box" style="background-color: #feae06">
+		<img src="imagens/blastoise.png" alt="Blastoise" style="width: 100%"> 
+	</div>
+	
+	
+	<div class="box2">
+	<p>
+		Squirtle:<br><br>
+		A concha de Squirtle não é usada apenas para proteção. A forma arredondada da concha e as ranhuras na sua superfície ajudam a minimizar a resistência na água, permitindo que este Pokémon nade a altas velocidades.
+	</p>
+	</div>
+	</div>
+
+	
+	<div class="box2">
+	<p>
+		
+		Wartortle:<br><br>
+		Sua cauda é grande e coberta com uma pele rica e grossa. A cauda torna-se cada vez mais profunda nas cores à medida que Wartortle envelhece. Os arranhões em sua casca são a prova da resistência deste Pokémon como um combatente.
+	</p>
+	</div>
+	</div>
+
+	
+	<div class="box2">
+	<p>
+		Blastoise:<br><br>
+		Blastoise tem bicos de água que se projetam de sua casca. Os bicos de água são muito precisos. Eles podem disparar balas de água com precisão suficiente para atingir latas vazias a uma distância de mais de 160 pés.
+	</p>
+	</div>
+	</div>
+	</div>
+<br><br>
+	<p>&copy Todos os Direitos Reservados 2019</p>
+	
+</body>
+</html>
